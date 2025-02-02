@@ -1,0 +1,19 @@
+{
+    "watch": [
+      "src/**/*.ts",
+      "src/db/**/*.ts",
+      "src/types/**/*.ts",
+      "src/routes/**/*.ts",
+      "src/controllers/**/*.ts",
+      "src/middleware/**/*.ts"
+    ],
+    "ignore": [
+      "src/**/*.spec.ts",
+      "src/**/*.test.ts",
+      "node_modules",
+      "dist"
+    ],
+    "ext": "ts,json",
+    "exec": "ts-node ./src/index.ts"
+  }
+  
